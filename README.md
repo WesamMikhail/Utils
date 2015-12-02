@@ -9,7 +9,9 @@ Example functions
 ```
 Arrays::fullIntersect($array1, $array2); # returns true if ALL the values in $array1 exists in $array2
 
-Strings::generateRandomAlphaNumericString(25); # Generate a random string of length 25
+Strings::generateRandomAlphaNumericString(25); # generate a random string of length 25
+
+Validator::startsWith("My name is x","x"); # returns true if the first argument starts with "x", which it doesn't!
 ```
 
 There are a bunch of other functions in the /src folder.
