@@ -11,8 +11,8 @@ class Explorer {
     /**
      * Get all directory files and directories
      * 
-     * @param string $dir: directory location
-     * @param boolean $subdir: include subdirectories of directory
+     * @param string $dir directory location
+     * @param boolean $subdir include subdirectories of directory
      * @return array 
      */
     public static function getAllFiles($dir, $subdir = false) {
@@ -44,8 +44,8 @@ class Explorer {
     /**
      * Get all subdirectories of directory
      * 
-     * @param string $dir: directory location
-     * @param boolean $subdir: include subdirectories of subdirectory
+     * @param string $dir directory location
+     * @param boolean $subdir include subdirectories of subdirectory
      * @return array 
      */
     public static function getAllSubdirectories($dir, $subdir = false) {
