@@ -4,7 +4,8 @@ namespace Lorenum\Utils;
 /**
  * Class Geometry
  * Geometry and spatial location helper functions
- * @package Lorenum\Ionian\Utils
+ *
+ * @package Lorenum\Utils
  */
 class Geometry {
 

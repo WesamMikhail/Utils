@@ -5,7 +5,7 @@ namespace Lorenum\Utils;
  * Class Email
  * Email related helper functions
  *
- * @package Lorenum\Ionian\Utils
+ * @package Lorenum\Utils
  */
 class Email {
     /**
@@ -32,7 +32,7 @@ class Email {
      * @return boolean True or False
      */
     public static function sendStandardEmail($from, $to, $subject, $message){
-        $headers = "From: no-reply@{$from} \r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=ISO-8859-1\r\n";
+        $headers = "From: no-reply@{$from} \r\nMIME-Version: 1.0\r\nContent-Type: text/html; charset=UTF-8\r\n";
 
         $message = '<html>
                         <head></head>

@@ -3,12 +3,14 @@ namespace Lorenum\Utils;
 
 /**
  * Class Logger
- * @package Lorenum\Ionian\Utils
+ *
+ * @package Lorenum\Utils
  */
 Class Logger{
 
     /**
      * Append a simple logging message at the end of a given file
+     *
      * @param $key
      * @param $msg
      * @param string $fileName

@@ -6,7 +6,7 @@ use SimpleXMLElement;
 /**
  * Class XML
  *
- * @package Lorenum\Ionian\Utils
+ * @package Lorenum\Utils
  */
 Class XML {
     /**

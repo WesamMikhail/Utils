@@ -5,7 +5,7 @@ namespace Lorenum\Utils;
  * Class SimpleContainer
  * A simple container class that uses magic methods
  *
- * @package Lorenum\Ionian\Utils
+ * @package Lorenum\Utils
  */
 class SimpleContainer {
     protected $registry = array();

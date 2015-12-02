@@ -5,7 +5,7 @@ namespace Lorenum\Utils;
  * Class Validator
  * Validation helper functions
  *
- * @package Lorenum\Ionian\Utils
+ * @package Lorenum\Utils
  */
 class Validator{
     /**

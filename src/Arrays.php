@@ -5,7 +5,7 @@ namespace Lorenum\Utils;
  * Class Arrays
  * Array related helper functions
  *
- * @package Lorenum\Ionian\Utils
+ * @package Lorenum\Utils
  */
 class Arrays{
 
