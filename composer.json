@@ -1,0 +1,17 @@
+{
+  "name": "Lorenum/Utils",
+  "description": "Mixed bag of utility classes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wesam Mikhail",
+      "email": "wesam@lorenum.com",
+      "homepage" : "https://github.com/WesamMikhail"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lorenum\\Utils\\": "src/"
+    }
+  }
+}
