@@ -1,6 +1,8 @@
 <?php
 namespace Lorenum\Utils;
 
+use Exception;
+
 /**
  * Class Strings
  * String generating helper functions
@@ -26,4 +28,23 @@ class Strings{
 
         return implode('', $randomChars);
     }
+
+    /**
+     * Generate random alphanumstring of size $length
+     * This function uses openssl_random_pseudo_bytes()
+     *
+     * @param $length
+     * @return string
+     * @throws \Exception
+     */
+    public static function generateUniqueRandomAlphaNumericString($length){
+        if(!function_exists('openssl_random_pseudo_bytes'))
+            throw new Exception("openssl_random_pseudo_bytes is not defined!");
+
+        if($length % 2 == 0)
+            return bin2hex(openssl_random_pseudo_bytes($length));
+
+        return substr(bin2hex(openssl_random_pseudo_bytes($length + 1)), 0, -1);
+    }
+
 }
